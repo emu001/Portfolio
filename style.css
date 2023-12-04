@@ -31,11 +31,11 @@ body {
     margin: 0;
   }
   
-  header img {
+  header>img{
     border-radius: 50%;
-    max-width: 100px;
-    margin-top: 10px;
-  }
+        max-width: 100px;
+        margin-top: 10px;
+    }
   
   nav ul {
     list-style: none;
@@ -62,21 +62,22 @@ body {
     margin-bottom: 20px;
     
   }
-  
-  .work-item .card  {
-    .work-item .card {
-      max-width: 400px; 
-      margin: 0 auto; 
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: background-color 0.3s;
-      border-radius: 15px;
-    }
-    img {border-radius: 15px;}
-    
+  .work-item .card{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    border-radius: 15px;
+    display: flex;
   }
+  .work-item .card img {
+border-radius: 15px;
+max-width: 400px;
+  }
+
   footer{ 
     background-color: burlywood;
     flex-wrap: wrap;
