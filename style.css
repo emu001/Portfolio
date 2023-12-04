@@ -5,13 +5,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #005A9C
-    ;
-  }
+    
+}
  
   .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #2652c2;
+    border-radius: 15px;
   }
   
   header {
@@ -22,13 +24,14 @@ body {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
-    
+    border-radius: 10px;
   }
 
   
   
   header h1 {
     margin: 0;
+    border: #c22626;
   }
   
   header>img{
@@ -67,19 +70,25 @@ body {
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s;
     border-radius: 15px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .work-item .card img {
 border-radius: 15px;
-max-width: 400px;
+max-width: 100%;
+display:flex;
+justify-content: center;
+align-items: center;
+
   }
 
   footer{ 
-    background-color: burlywood;
+    background-color: rgb(127, 104, 75);
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
@@ -87,8 +96,6 @@ max-width: 400px;
   .button {
     background-color: rgb(129, 159, 90);
   }
-
-
   
   @media screen and (max-width: 992px) {
 .work-item{
