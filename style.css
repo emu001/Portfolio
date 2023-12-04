@@ -4,6 +4,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #005A9C
+    ;
   }
  
   .container {
@@ -14,7 +16,7 @@ body {
   
   header {
     display: flex; 
-    
+    justify-content: center;  
     flex-wrap: wrap;
     text-align: center;
     background-color: #333;
@@ -58,17 +60,31 @@ body {
   
   .work-item {
     margin-bottom: 20px;
+    
   }
   
-  .work-item img {
-    width: 100%;
-    border: 2px solid #333;
-    border-radius: 5px;
+  .work-item .card {
+    
+    background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  cursor:pointer;
   }
   footer{ 
     background-color: burlywood;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
   }
-  @media screen and (max-width: 786px) {
+  .button {
+    background-color: rgb(129, 159, 90);
+  }
+
+
+  
+  @media screen and (max-width: 992px) {
 .work-item{
   width:50%
 }
